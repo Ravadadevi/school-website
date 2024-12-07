@@ -1,0 +1,187 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body{
+    background-image: url("sport.avif");
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 40vh;
+    background-size: cover;
+}
+
+.container-fluid{
+    background-color: rgb(15, 15, 92);
+    color: white;
+    font-size: 15px;
+    padding: 10px 10%;
+    
+}
+.container-fluid i{
+    color: gold;  
+}
+.container-fluid a{
+    color: white;
+    font-size: 15px;
+}
+.nav{
+     background-color: white;
+}
+.header{
+     width: 98vw;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 10%;
+    font-size: 15px;
+    border: 1px solid white;
+    background-color: rgb(15, 15,92); 
+}
+.menu a{
+    color:yellow;
+    font-size: 20px;
+    text-decoration: none;
+    
+}
+.menu{
+    display: flex;
+    text-align: center;
+    gap:50px;
+}
+.menu  li{
+    list-style:none;
+    margin:3px; 
+}
+.menu  li a{
+    text-decoration: none;
+    font-size: 13px;
+    text-align: center;
+    align-items: center;
+    color:yellow;
+    font-size: 15px;
+}
+.min h1{
+    margin-top: 20%;
+    margin-left: 65%;
+    color:red;
+    font-size: 40px;
+}
+.min p{
+    margin-left: 65%;
+    color:yellow;
+    font-size: 30px;
+}
+span{
+    color:rgb(73, 11, 218);
+}
+h1{ 
+    color: rgb(121, 17, 107);
+    font-size: 30px;
+    margin-top: 10%;
+    text-align: center;
+
+}
+
+.type1{
+    background: azure;
+    height: 105vh;
+    width: 98vw;
+    margin-top: -8%;
+}
+form{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-left: -40%;
+    margin-top: 10%;
+
+    padding: 50px 50%;
+    
+
+}
+#max{
+    padding: 3px 5px;
+    height: 50px;
+    width: 150px;
+    background-color:gold;
+    color: black;
+    border-radius: 6px;
+    font-size: 20px;
+}
+#max:hover{
+    background-color:rgb(10, 10, 58);
+    color: gold;
+}
+input{
+    height: 50px;
+    width: 250px;
+    background-color: navy;
+    border-radius: 6px;
+}
+::placeholder{
+    color: gold;
+    text-align: center;
+    font-size: 20px;
+}
+input:hover{
+   background-color: rgb(10, 10, 58);
+}
+.game img{
+    height: 291px;
+    width: 400px;
+}
+
+.sport{
+      height: 50vh;
+      width: 55vw;
+      margin-top: 5%;
+      margin-left: 25%;
+
+}
+.sai{
+    display: flex;
+    justify-content: space-around;
+    background-color:navy;
+    margin-top: 2%;
+    padding: 10px 10%;
+    gap: 25px;
+}
+.srinu img{
+    margin-left: -10%;
+}
+.srinu1 h4{
+       margin-left: 5%;
+}
+.srinu i{
+     margin: 10px;
+     color: gold;
+
+}
+.srinu i:hover{
+    color: white;
+
+}
+
+.sai p{
+    margin-bottom: 8px;
+    font-size: 15px;
+    color: white;
+}
+.srinu2{
+    margin-top: 3%;
+}
+.sai h4{
+    font-size: 20px;
+    color: gold ;
+}
+.sai p:hover{
+    color: gold;
+}
+.srinu4 i{
+   color: gold;
+}
+@media(max-width:800px) {
+    
+    
+}

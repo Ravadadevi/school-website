@@ -1,0 +1,192 @@
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body{
+    background-image: url("3d-tree-mound-soil.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 10vh;
+    background-size: cover;
+}
+
+.container-fluid{
+    background-color: rgb(15, 15, 92);
+    color: white;
+    font-size: 15px;
+    padding: 10px 10%;
+    
+}
+.container-fluid i{
+    color: gold;  
+}
+.container-fluid a{
+    color: white;
+    font-size: 15px;
+}
+.nav{
+     background-color: white;
+}
+.header{
+     width: 98vw;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 10%;
+    font-size: 15px;
+    border: 1px solid white;
+    background-color: rgb(15, 15,92); 
+}
+.menu a{
+    color:yellow;
+    font-size: 20px;
+    text-decoration: none;
+    
+}
+.menu{
+    display: flex;
+    text-align: center;
+    gap:50px;
+}
+.menu  li{
+    list-style:none;
+    margin:3px; 
+}
+.menu  li a{
+    text-decoration: none;
+    font-size: 13px;
+    text-align: center;
+    align-items: center;
+    color:yellow;
+    font-size: 15px;
+}
+.mini h1{
+    margin-top: 20%;
+    margin-left: 10%;
+    color:red;
+    font-size: 40px;
+}
+.mini p{
+    margin-left: 10%;
+    color:black;
+    font-size: 30px;
+}
+span{
+    color:rgb(13, 13, 94);
+}
+.main div{
+    display: flex;
+    padding: 5px 8%;
+    justify-content: space-evenly;
+}
+ h6{
+    margin-top: 5%;
+    font-size: 30px;
+    text-align:center;
+    padding: 10px 10%;
+    color: navy;
+}
+ h2{
+    
+    font-size: 30px;
+    padding: 10px 10%;
+    color: rgb(204, 16, 78);
+}
+.main div p{
+       margin-top:3%;
+       font-size: 20px;
+       line-height: 30px;
+}
+.seven{
+    height: 20xh;
+    background-color: rgb(17, 17, 85);
+    display: flex;
+    gap: 100px;
+    padding: 15px 15%;
+}
+.seven p{
+    color: white;
+    font-size: 20px;
+}
+.seven h1{
+    color:gold;
+    font-size: 30px;
+}
+main div img{
+    margin-left: 2%;
+}
+.sai{
+    display: flex;
+    justify-content: space-around;
+    background-color:navy;
+    margin-top: 2%;
+    padding: 10px 10%;
+    gap: 25px;
+}
+.srinu img{
+    margin-left: -10%;
+}
+.srinu1 h4{
+       margin-left: 5%;
+}
+.srinu i{
+     margin: 10px;
+     color: gold;
+
+}
+.srinu i:hover{
+    color: white;
+
+}
+
+.sai p{
+    margin-bottom: 8px;
+    font-size: 15px;
+    color: white;
+}
+.srinu2{
+    margin-top: 3%;
+}
+.sai h4{
+    font-size: 20px;
+    color: gold ;
+}
+.sai p:hover{
+    color: gold;
+}
+.srinu4 i{
+   color: gold;
+}
+@media (max-width:800px){
+    .main div{
+        display: inline;
+        padding: 5px 8%;
+        justify-content: space-evenly;
+    }
+    .seven{
+        display: inline;
+        background-color: white;
+        margin-top: 15%;
+        text-align: center;
+    }
+    .seven p{
+        color: black;
+    }
+    .sai{
+        display: inline;
+        text-align: center;
+        background-color: white;
+    }
+    .sai p{
+        color: black;
+    }
+    .sai h4{
+        font-size: 20px;
+        color: navy;
+    }
+    
+
+}
+
